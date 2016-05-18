@@ -1417,3 +1417,207 @@ Started GET "/assets/landing/avatar_all-ac5c097a10b7e81a5d2e276d33724552badec0b6
 
 
 Started GET "/assets/landing/header_one-8fcd7a3621d717b963b69903b5a52bb2926f0597103ef5ebfd64531d8b5ab113.jpg" for ::1 at 2016-05-17 20:11:54 -0400
+
+
+Started GET "/" for ::1 at 2016-05-17 20:13:10 -0400
+Processing by LandingController#index as HTML
+  Rendered landing/index.html.erb within layouts/empty (4746.8ms)
+Completed 200 OK in 5037ms (Views: 5027.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a07f2f758518b7164b7741b3dc17627baae988de3f41f86fe60043f6feb4e16c.css?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/animate/animate.self-570992b3ad6a262de1924aa4ecc17a6f9cf45cb8fd0daaf3cfe5a9f2f3e08e2e.css?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/style.self-b153a98d4b39b9de7df4979a40a812d1a2709f3adb5cf2c583437093c758f18e.css?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/font-awesome.self-2d17540bab3759939e910ca38a695f014e0c777ded3ad7a01c4658b9d3fc980d.css?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/jquery/jquery-2.1.1.self-cdd78b0dc506b751b442bb5e5298ea658af2ee55e46ccb88ba5583570ca686e2.js?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.self-587029531d977fc7fa10623dd670189a298bd606124c23fc2edd051da5b0c914.js?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/pace/pace.min.self-9bf6d667514a59744d5db2c9392aaf5595dec9c131a425ababa1cb8cddb814f2.js?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/peity/jquery.peity.min.self-87cebcc460783e0d61faa78980090e6fab75e4ab5c80b776c5f38e394c1a54bd.js?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.self-a2008e2992d055fbe5108d326a54c3083f843da1a30240d2b2e1f706716fa03e.js?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/inspinia.self-00d44c61472e02a04c05d1e833fbd3137551b564a55bf83211261e360b56d771.js?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/application.self-0250c430e7a2284fb865f9b5e4b314f2ef08d0d1eae2f5f4791fa0b28e3c8b6b.js?body=1" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/landing/avatar3-b8731e0e8c3fd577047e903b797db2a74b0958514028e0373cf9ecba4d2b8ade.jpg" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/landing/avatar1-2a329f39a2d45589ce8b58c29befaff1d967743736a9ec540a8e0f69dd996ec2.jpg" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/landing/avatar2-05d39e962c8d2f77283141b88d03328786542fb84a23b3b45b39986715388428.jpg" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/landing/word_map-20e178bf1c443c7592ea3eeb44cb862e663419903f5d338f54a9a92a46605465.png" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/landing/avatar_all-ac5c097a10b7e81a5d2e276d33724552badec0b6a9a0c3fef48e53e384c07183.png" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/assets/landing/header_one-8fcd7a3621d717b963b69903b5a52bb2926f0597103ef5ebfd64531d8b5ab113.jpg" for ::1 at 2016-05-17 20:13:16 -0400
+
+
+Started GET "/" for ::1 at 2016-05-17 20:13:23 -0400
+Processing by LandingController#index as HTML
+  Rendered landing/index.html.erb within layouts/empty (5.3ms)
+Completed 200 OK in 66ms (Views: 65.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a07f2f758518b7164b7741b3dc17627baae988de3f41f86fe60043f6feb4e16c.css?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/style.self-b153a98d4b39b9de7df4979a40a812d1a2709f3adb5cf2c583437093c758f18e.css?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/jquery/jquery-2.1.1.self-cdd78b0dc506b751b442bb5e5298ea658af2ee55e46ccb88ba5583570ca686e2.js?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/animate/animate.self-570992b3ad6a262de1924aa4ecc17a6f9cf45cb8fd0daaf3cfe5a9f2f3e08e2e.css?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/font-awesome.self-2d17540bab3759939e910ca38a695f014e0c777ded3ad7a01c4658b9d3fc980d.css?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.self-587029531d977fc7fa10623dd670189a298bd606124c23fc2edd051da5b0c914.js?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/pace/pace.min.self-9bf6d667514a59744d5db2c9392aaf5595dec9c131a425ababa1cb8cddb814f2.js?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/peity/jquery.peity.min.self-87cebcc460783e0d61faa78980090e6fab75e4ab5c80b776c5f38e394c1a54bd.js?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.self-a2008e2992d055fbe5108d326a54c3083f843da1a30240d2b2e1f706716fa03e.js?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/inspinia.self-00d44c61472e02a04c05d1e833fbd3137551b564a55bf83211261e360b56d771.js?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/application.self-0250c430e7a2284fb865f9b5e4b314f2ef08d0d1eae2f5f4791fa0b28e3c8b6b.js?body=1" for ::1 at 2016-05-17 20:13:23 -0400
+
+
+Started GET "/assets/landing/avatar3-b8731e0e8c3fd577047e903b797db2a74b0958514028e0373cf9ecba4d2b8ade.jpg" for ::1 at 2016-05-17 20:13:24 -0400
+
+
+Started GET "/assets/landing/avatar1-2a329f39a2d45589ce8b58c29befaff1d967743736a9ec540a8e0f69dd996ec2.jpg" for ::1 at 2016-05-17 20:13:24 -0400
+
+
+Started GET "/assets/landing/avatar2-05d39e962c8d2f77283141b88d03328786542fb84a23b3b45b39986715388428.jpg" for ::1 at 2016-05-17 20:13:24 -0400
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for ::1 at 2016-05-17 20:13:24 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2016-05-17 20:13:24 -0400
+
+
+Started GET "/assets/landing/word_map-20e178bf1c443c7592ea3eeb44cb862e663419903f5d338f54a9a92a46605465.png" for ::1 at 2016-05-17 20:13:24 -0400
+
+
+Started GET "/assets/landing/avatar_all-ac5c097a10b7e81a5d2e276d33724552badec0b6a9a0c3fef48e53e384c07183.png" for ::1 at 2016-05-17 20:13:24 -0400
+
+
+Started GET "/assets/landing/header_one-8fcd7a3621d717b963b69903b5a52bb2926f0597103ef5ebfd64531d8b5ab113.jpg" for ::1 at 2016-05-17 20:13:24 -0400
