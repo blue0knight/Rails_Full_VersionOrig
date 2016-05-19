@@ -126,27 +126,25 @@
 
         <div class="tab-content">
           <div id="home" class="tab-pane fade in active">
-            <h3>Developers and Agents</h3>
-            <div class="map1">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14377.558969384701!2d-80.3076813!3d25.7246219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1463613369581" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
+            <h3>Agents and Developers</h3>
+              <div class="center-block" id="googleMap" style="width:600px;height:450px"></div>
           </div>
           <div id="menu1" class="tab-pane fade">
             <h3>Menu 1</h3>
             <div class="map1">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14377.558969384701!2d-80.3076813!3d25.7246219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1463613369581" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14377.558969384701!2d-80.3076813!3d25.7246219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1463613369581" width="600px" height="450px" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
           </div>
           <div id="menu2" class="tab-pane fade">
             <h3>Menu 2</h3>
               <div class="">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14377.558969384701!2d-80.3076813!3d25.7246219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1463613369581" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14377.558969384701!2d-80.3076813!3d25.7246219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1463613369581" width="600px" height="450px" frameborder="0" style="border:0" allowfullscreen></iframe>
               </div>
           </div>
           <div id="menu3" class="tab-pane fade">
             <h3>Menu 3</h3>
             <div class="">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14377.558969384701!2d-80.3076813!3d25.7246219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1463613369581" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14377.558969384701!2d-80.3076813!3d25.7246219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1463613369581" width="600px" height="450px" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -680,6 +678,55 @@ $(function() {
 
 });
 
+</script>
+
+<!-- google map -->
+<script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
+
+<script>
+var myCenter=new google.maps.LatLng(25.769079,-80.188602);
+
+function initialize()
+{
+var mapProp = {
+  center:myCenter,
+  zoom:5,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker=new google.maps.Marker({
+  position:myCenter,
+  });
+
+marker.setMap(map);
+
+var contentString = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1 id="firstHeading" class="firstHeading">Suzanne Oostdyk</h1>'+
+      '<div id="bodyContent">'+
+      '<p><b>Luxury Condos & Homes in Miami</b>, Broker-Associate. FORTUNE INTERNATIONAL REALTY<b> GOLD CIRCLE</b> MEMBER ' +
+      'Licensed Realtor since 1996.</p>' +
+      '<p>Suzanne and her team offer real estate services in English, '+
+      'French, Spanish & Portuguese. '+
+      '<b>T:305.725.9696 | email: soostdyk@fir.com</b> '+
+      '<br />'+
+      '<a href="http://www.suzannesellsmiami.com/">www.SuzanneSellsMiami.com</a></p> '+
+      '</div>'+
+      '</div>';
+
+var infowindow = new google.maps.InfoWindow({
+  content: contentString
+  });
+
+infowindow.open(map,marker);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 
 <% end %>
